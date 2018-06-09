@@ -1,0 +1,17 @@
+{
+  "id": "teamwork-desk",
+  "name": "Teamwork Desk",
+  "version": "0.1.0",
+  "description": "Project management SaaS",
+  "main": "index.js",
+  "author": "tdtm <https://github.com/tdtm/>, based on Teamwork Projects by Retzudo <https://github.com/Retzudo/>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamId}.teamwork.com/desk/",
+    "hasNotificationSound": true,
+    "urlInputSuffix": true,
+    "hasIndirectMessages": false,
+    "hasTeamId": true,
+    "urlInputSuffix": ".teamwork.com/desk/"
+  }
+}
